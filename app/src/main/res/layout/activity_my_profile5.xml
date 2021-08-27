@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity5">
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/black"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/but2"
+        android:layout_marginTop="65dp"
+        android:text="My Profile"
+        android:layout_marginHorizontal="120dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/human"
+        android:id="@+id/human"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/phone"
+        android:id="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/human"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/email"
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/phone"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/twitter"
+        android:id="@+id/twitter"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/email"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/link"
+        android:id="@+id/link"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/twitter"
+        />
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/black"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="62dp"
+        android:text="Chadrack MBUYI KALALA"
+        android:textSize="18dp"
+        android:id="@+id/nom"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/nom"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="+27 61 79 47 076"
+        android:textSize="18dp"
+        android:id="@+id/numero"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/numero"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="chadrackmbuyi2@gmail.com"
+        android:textSize="18dp"
+        android:id="@+id/emaile"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/emaile"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="@Chadrac_Mbuyi"
+        android:inputType="textEmailAddress"
+        android:textSize="18dp"
+        android:id="@+id/twitters"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/twitters"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="https://www.linkedin.com/in/chadrack-mbuyi-a80b221a7/"
+        android:textSize="18dp"
+        android:id="@+id/links"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
